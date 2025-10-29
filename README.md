@@ -145,6 +145,11 @@ fp-systems-lab/
 4. **Format regularly**: Use `make format-*` to keep your code clean and readable
 5. **Clean when stuck**: Use `make clean` if you encounter build issues
 
+## Additional Resources
+
+- **[QUICKREF.md](QUICKREF.md)** - Quick reference for common FP patterns across all three languages
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guide for adding exercises and learning effectively
+
 ## Adding New Exercises
 
 Simply create new files in the respective `src/` directories for each language. The build tools will automatically include them in the compilation process.
