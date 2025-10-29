@@ -29,7 +29,7 @@ List(1, 2, 3).map(_ * 2)  // List(2, 4, 6)
 
 **Rust:**
 ```rust
-vec![1, 2, 3].iter().map(|x| x * 2).collect()  // [2, 4, 6]
+vec![1, 2, 3].iter().map(|x| x * 2).collect()  // vec![2, 4, 6]
 ```
 
 **Haskell:**
@@ -47,7 +47,7 @@ List(1, 2, 3, 4, 5).filter(_ % 2 == 0)  // List(2, 4)
 
 **Rust:**
 ```rust
-vec![1, 2, 3, 4, 5].iter().filter(|x| *x % 2 == 0).collect()  // [2, 4]
+vec![1, 2, 3, 4, 5].iter().filter(|x| *x % 2 == 0).collect()  // vec![2, 4]
 ```
 
 **Haskell:**
