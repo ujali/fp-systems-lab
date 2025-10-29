@@ -14,3 +14,10 @@ executable fp-haskell-lab
   hs-source-dirs:      app
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
+
+test-suite fp-haskell-lab-test
+  type:                exitcode-stdio-1.0
+  main-is:             Spec.hs
+  hs-source-dirs:      test
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
