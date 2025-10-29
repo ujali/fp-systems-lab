@@ -1,0 +1,40 @@
+# Scala
+scala/target/
+scala/project/target/
+scala/project/project/
+*.class
+*.log
+.bsp/
+.metals/
+.vscode/
+metals.sbt
+
+# Rust
+rust/target/
+rust/Cargo.lock
+**/*.rs.bk
+
+# Haskell
+haskell/.stack-work/
+haskell/dist/
+haskell/dist-newstyle/
+*.hi
+*.o
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
